@@ -27,7 +27,6 @@ public class Main {
                 + " Максимальная сумма трат за неделю составила " + maxSalary + " рублей.");
 
 
-
         System.out.println("Task 3");
         int[] salaries2 = {10, 20, 30, 40, 50};
 
@@ -35,15 +34,15 @@ public class Main {
         for (int salary : salaries2) {
             sumSalaries2 += salary;
         }
-        int averageSalary = sumSalaries2 /salaries2.length;
+        double averageSalary = (double) sumSalaries2 / salaries2.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageSalary + " рублей.");
 
 
         System.out.println("Task 4");
-        char [] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseFullName.length - 1; i >= 0 ; i--) {
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
-            
+
         }
 
     }
